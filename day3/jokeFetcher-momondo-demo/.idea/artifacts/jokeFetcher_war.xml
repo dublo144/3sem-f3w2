@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jokeFetcher:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jokeFetcher</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jokeFetcher-1.war">
+      <element id="artifact" artifact-name="jokeFetcher:war exploded" />
+    </root>
+  </artifact>
+</component>
